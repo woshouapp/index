@@ -104,8 +104,8 @@ var rotate=function(clickID){
 	//$("#dotImage" + nextID).attr("src",contextPath + "image/dotBigNormal.png");
 	
 	//alert(activeID + ' '+ nextID);
-	$("#dotImage" + activeID).removeClass("active");
-	$("#dotImage" + nextID).addClass("active");
+	$("#dotImage" + (activeID+1)).removeClass("active");
+	$("#dotImage" + (nextID+1)).addClass("active");
 	
 	$("#index-content-second-" + activeID).fadeOut(1200);
 	$("#index-content-second-" + nextID).fadeIn(1200);

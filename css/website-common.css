@@ -132,21 +132,3 @@ a:VISITED {
 	color: #dddddd;
 	text-decoration: underline;
 }
-
-/** 
-* 链接   #29b5c6;   22d0b4
-*/
-a:link span.reigister {
-	color: #29b5c6;
-	text-decoration: none;
-}
-
-a:hover span.reigister {
-	color: #29b5c6;
-	text-decoration: underline;
-}
-
-a:VISITED span.reigister {
-	color: #29b5c6;
-	text-decoration: underline;
-}
