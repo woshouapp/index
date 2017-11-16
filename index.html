@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>沃手应用伴侣</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="keywords" content="沃手应用伴侣,沃手,应用伴侣,pc版友盟,pc统计">
+	<meta http-equiv="description" content="沃手应用伴侣是首家支持桌面应用的第三方数据服务组件。提供数据上报统计、自动版本升级等接口，轻松接入，让您不再需要自己开发，更专注应用的业务，释放您的业务能量。">
+	<link rel="icon" href="http://ozd27rxdt.bkt.clouddn.com/logo.jpg">
+	<link rel="shortcut icon" href="http://ozd27rxdt.bkt.clouddn.com/logo.jpg">
+	<link rel="stylesheet" href="./css/website-common.css" type="text/css" />
+	<link rel="stylesheet" href="./css/index.css" type="text/css" />
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/index.js"></script>
+</head>  
+<body>
+	<div class="container">
+	<!-- 引入头部文件 object要设定好高度-->
+	<!-- 头部 -->
+		<div class="header" id="header">
+			<div class="header-all">
+				<div class="header-left">
+					<div class="header-logo" id="header-logo"></div>
+					<div id="header-menu" class="header-menu">
+						<!--  
+						<ul id="nav">
+							<li><a href="#">首页</a></li>
+							<li><a href="#">成功案例</a></li>
+							<li><a href="#">联系我们</a></li>
+						</ul>
+						-->
+						<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" id="menuTable">
+							<tr>
+								<td id="helpCenter" style="width: 110px;"><a href="http://www.woshouapp.com/"><img width="64" height="64" src="http://ozd27rxdt.bkt.clouddn.com/logo.jpg" alt=""></a></td>
+								<td id="index" style="width: 80px;""><a href="http://www.woshouapp.com/">首页</a></td>
+								<td id="download" style="width: 100px;""><a href="./appmate_sdk.zip">下载SDK</a></td>
+								<td id="helpCenter" style="width: 110px;"><a href="#successcase">成功案例</a></td>
+								<td id="contact" style="width: 110px;""><a href="mailto:service@woshouapp.com">联系我们</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="header-right">
+				<!-- 
+					<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>
+								<a href="javascript:void(0);" onclick="loginPage();">登录组织</a> | <a href="javascript:void(0);" onclick="registerPage();">注册组织</a>
+							</td>
+						</tr>
+					</table>
+				 -->
+				 <span id="span_userinfo" style="color:#fff">
+				 	[
+				 	<a href="javascript:window.open('login.php','_blank');" >登录</a>
+				 	·
+				 	<a href="javascript:window.open('register.php','_blank');">注册</a>
+				 	]
+				 </span>
+				 
+				</div>
+			</div>
+		</div>
+		
+		 
+	
+		<!-- 内容-->
+		<div id="index-content" class="index-content">
+		<!-- 滚动条上下移动下载菜单是否变蓝 -->
+			<input type="hidden" name="menuDownload" id="menuDownload" value="index"/>
+			<!-- 内容第二层 -->
+			<div style="width: 100%; height: 500px; position:relative; text-align:center;" id="index-content-second">
+				<!-- image1 -->
+				<div id="index-content-second-0" class="index-content-second" style="background: url(http://ozd27rxdt.bkt.clouddn.com/bk_reportstat.jpg) no-repeat center center;">
+					<div class="index-content-second-all">
+						<div class="index-content-second-text">
+							<div class="index-content-second-left-top">数据统计<br/></div>
+							<div class="index-content-second-left-center">
+								<p>准确上报应用的启动及退出</p>
+								<p>统计每日新增留存诸多数据</p>
+								<p>更有自定义事件记录用户偏好</p>
+								<p>&nbsp;</p>
+								<a class="btn_download" href="" target="_blank" title="下载SDK">立即下载</a>
+							</div>
+						</div>
+					</div>	
+				</div>
+			
+				<!-- image2 -->
+				<div id="index-content-second-1" class="index-content-second" style="background: url(http://ozd27rxdt.bkt.clouddn.com/bk_upgrade.jpg) no-repeat center center; display: none;">
+					<div class="index-content-second-all">
+						<div class="index-content-second-text">
+							<div class="index-content-second-left-top">自动升级</div>
+							<div class="index-content-second-left-center">
+								<p>先进的版本管理思想</p>
+								<p>支持强制升级，静默升级等多种方式</p>
+								<p>透明的升级过程，只需一个接口</p>
+								<p>&nbsp;</p>
+								<a class="btn_download" href="" target="_blank" title="下载SDK">立即下载</a>
+							</div>
+						</div>
+					</div>	
+				</div>
+				   
+				<div class="slider">
+					<a id="previousImage" class="slider-btn slider-btn-left">&lt;</a>
+					<a id="nextImage" class="slider-btn slider-btn-right">&gt;</a>
+					<div class="slider-dot">
+						<ul>
+							<li id="dotImage1" name="dotImage" title="0" class="active"></li>
+							<li id="dotImage2" name="dotImage" title="1" class=""></li>
+						</ul>
+					</div>
+					
+				</div>
+				 
+			</div>
+			<div class="template">
+				<h2 margin-top="30px">【沃手应用伴侣】 —— 首家支持桌面应用的数据服务组件</h2>
+			</div>
+			<div class="intro-text" width="1000px">
+				<p>【沃手应用伴侣】首家支持桌面应用的第三方数据服务组件。提供数据上报统计、自动版本升级等接口，轻松接入，让您不再需要自己开发，更专注应用的业务，释放您的业务能量。</p>
+<!-- 			<p>“友盟＋”将可以给帮助创业者和企业降低数据能力的门槛，让创业者和企业能够将更多的精力集中到自身的业务发展中。</p>
+ -->
+			</div>
+			<div class="seperate" id="successcase" />
+			 	<h2 margin-top="50px">成功案例</h2>
+			 	<a href="http://www.atbt.info"><img width="64" height="64" src="http://ozd27rxdt.bkt.clouddn.com/btnListen.png" alt="同步听" /></a>	
+				<!-- 引入尾部文件 
+				<object style="border:0px" type="text/x-scriptlet" data="bottom.html" width=100%></object>-->
+			</div>
+		</div>
+
+		<div class="footer">
+			<ul>
+				<li>友情链接：<a href="http://www.atbt.info/">同步听</a></li>
+				<li>联系方式：<a href="mailto:service@woshouapp.com">service@woshouapp.com</a></li>
+				<li><a href="http://www.miibeian.gov.cn" target='_blank'>粤ICP备17137014号</a></li>
+				<li><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1269316414'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1269316414%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></li>
+			</ul>
+		</div>
+		
+</body>
+</html>

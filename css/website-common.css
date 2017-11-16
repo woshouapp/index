@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+html{
+    _background-image:url(about:blank);
+    _background-attachment:fixed;
+}
+
+
+body {
+	font-family: "Microsoft YaHei" ! important;
+	height: 100%; 
+	backgroud-color : #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: 0 auto; /*设置整个容器在浏览器中水平居中*/
+	height: 100%;
+}
+
+/**官方网站头部*/
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: #252a39;
+	text-align: center;
+	filter:alpha(opacity=95);  
+    -moz-opacity:0.95;  
+    -khtml-opacity: 0.95;  
+    opacity: 0.95;
+}
+
+.header-all {
+	width:1000px;
+	height: 60px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header-left {
+	width: 600px;
+	height: 100%;
+	float: left; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
+}
+
+.header-logo {
+	width: 68px;
+	height: 70px;
+	background-image: url(./image/LOGO.png);
+	background-repeat: no-repeat;
+	float: left; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
+	cursor: pointer;
+}
+
+.header-menu {
+	width:510px;
+	height: 100%;
+	text-align:center;
+	float: right; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
+}
+
+.header-menu table td {
+	text-align:center;
+	color: #dddddd;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.header-menu table td a:link {
+	display: block;
+	width: 100%;
+	color: #dddddd;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header-right {
+	width: 190px;
+	height: 34px;
+	float: right; /*设置浮动，实现多列效果，div+Css布局中很重要的*/
+	margin-top: 18px; 
+	
+}
+
+/**
+.header-right td {
+	text-align: right;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+.header-right td a:link,#header-right td a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.header-right td a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+**/
+
+/**官方网站尾部*/
+.footer {
+	width: 100%;
+	height: 220px;
+	background-color: #252a39;
+	text-align: center;
+	
+}
+
+.clear {
+	clear: both;
+}
+
+/** 
+* 链接   #29b5c6;   22d0b4
+*/
+a:link {
+	color: #dddddd;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #dddddd;
+	text-decoration: underline;
+}
+
+a:VISITED {
+	color: #dddddd;
+	text-decoration: underline;
+}
+
+/** 
+* 链接   #29b5c6;   22d0b4
+*/
+a:link span.reigister {
+	color: #29b5c6;
+	text-decoration: none;
+}
+
+a:hover span.reigister {
+	color: #29b5c6;
+	text-decoration: underline;
+}
+
+a:VISITED span.reigister {
+	color: #29b5c6;
+	text-decoration: underline;
+}
